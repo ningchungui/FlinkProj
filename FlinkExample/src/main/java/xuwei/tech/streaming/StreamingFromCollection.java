@@ -22,8 +22,6 @@ public class StreamingFromCollection {
         data.add(10);
         data.add(15);
         data.add(20);
-        
-
 
         //指定数据源
         DataStreamSource<Integer> collectionData = env.fromCollection(data);
